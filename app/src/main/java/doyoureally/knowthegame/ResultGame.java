@@ -3,10 +3,8 @@ package doyoureally.knowthegame;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +28,7 @@ public class ResultGame extends AppCompatActivity {
         setContentView(R.layout.games_layout);
         Game game = getIntent().getExtras().getParcelable("Game");
         ImageView imageView = findViewById(R.id.game_picture);
-        TextView name = findViewById(R.id.game_name);
+        TextView name = findViewById(R.id.results);
         imageView.setImageResource(game.getPicture());
         name.setText(game.getName());
 
@@ -40,7 +38,7 @@ public class ResultGame extends AppCompatActivity {
         List<Quiz> quizzes = gson.fromJson(jsonFileString, listQuizType);
         System.out.println("YOLO");
 
-        Button button = findViewById(R.id.launch);
+        Button button = findViewById(R.id.menu);
         Intent intent = new Intent(ResultGame.this, QuizQuestion.class);
         System.out.println("azeazeaze " + game.toString());
         System.out.println("azeazeaze " + quizzes.get(0).getName());
