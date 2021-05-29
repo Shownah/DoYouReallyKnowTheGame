@@ -1,17 +1,25 @@
 package doyoureally.knowthegame;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.util.Log;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import doyoureally.knowthegame.Game.Game;
-import doyoureally.knowthegame.Quiz.Quiz;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
+import java.util.List;
+
+import doyoureally.knowthegame.game.Game;
+import doyoureally.knowthegame.quiz.Quiz;
+import doyoureally.knowthegame.utils.Utils;
 
 
 public class ResultGame extends AppCompatActivity {
@@ -26,12 +34,23 @@ public class ResultGame extends AppCompatActivity {
         imageView.setImageResource(game.getPicture());
         name.setText(game.getName());
 
-        ListView listView = findViewById(R.id.listView);
-        Intent intent = new Intent(ResultGame.this, QuizQuestion.class);
+        String jsonFileString = Utils.getJsonFromAssets(getApplicationContext(), "quiz.json");
+        Gson gson = new Gson();
+        Type listQuizType = new TypeToken<List<Quiz>>() { }.getType();
+        List<Quiz> quizzes = gson.fromJson(jsonFileString, listQuizType);
+        System.out.println("YOLO");
 
-        listView.setOnItemClickListener((parent, view, position, id) -> {
-            Quiz quiz = new Quiz(game.getName());
-            intent.putExtra("Game", (Parcelable) quiz);
+        Button button = findViewById(R.id.launch);
+        Intent intent = new Intent(ResultGame.this, QuizQuestion.class);
+        System.out.println("azeazeaze " + game.toString());
+        System.out.println("azeazeaze " + quizzes.get(0).getName());
+        button.setOnClickListener((id) -> {
+            Quiz quiz = quizzes.stream()
+                    .filter(q -> game.getName().equals(q.getName()))
+                    .findAny()
+                    .orElse(null);
+            intent.putExtra("Game", (Parcelable) game);
+            intent.putExtra("Quiz", (Parcelable) quiz);
             startActivity(intent);
         });
     }

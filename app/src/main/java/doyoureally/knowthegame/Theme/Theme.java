@@ -1,4 +1,4 @@
-package doyoureally.knowthegame.Theme;
+package doyoureally.knowthegame.theme;
 
 public class Theme {
     private String name;

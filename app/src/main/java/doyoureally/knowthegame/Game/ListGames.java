@@ -1,4 +1,4 @@
-package doyoureally.knowthegame.Game;
+package doyoureally.knowthegame.game;
 
 import java.util.ArrayList;
 

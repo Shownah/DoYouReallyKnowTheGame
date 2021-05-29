@@ -4,35 +4,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
 
-
-    <Button
-        android:id="@+id/Objets"
-        android:layout_width="176dp"
-        android:layout_height="88dp"
-        android:layout_below="@+id/Environnement"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="117dp"
-        android:text="Objets"
-        android:textAlignment="center"
-        android:textSize="12sp" />
-
-    <Button
-        android:id="@+id/Environnement"
-        android:layout_width="176dp"
-        android:layout_height="88dp"
-        android:layout_below="@+id/personnages"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="117dp"
-        android:text="Environnement"
-        android:textAlignment="center"
-        android:textSize="12sp" />
-
     <ImageView
         android:id="@+id/game_picture"
         android:layout_width="229dp"
@@ -61,7 +32,7 @@
         android:textSize="22sp" />
 
     <Button
-        android:id="@+id/personnages"
+        android:id="@+id/launch"
         android:layout_width="176dp"
         android:layout_height="88dp"
         android:layout_below="@+id/game_name"
@@ -70,7 +41,7 @@
         android:layout_marginStart="117dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="117dp"
-        android:text="Personnages"
+        android:text="Let's go!"
         android:textAlignment="center"
         android:textSize="12sp" />
 

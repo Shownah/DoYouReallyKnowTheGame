@@ -1,4 +1,4 @@
-package doyoureally.knowthegame.Game;
+package doyoureally.knowthegame.game;
 
 import android.os.Parcel;
 import android.os.Parcelable;

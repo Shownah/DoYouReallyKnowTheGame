@@ -1,12 +1,11 @@
 package doyoureally.knowthegame;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import doyoureally.knowthegame.Game.Game;
+import doyoureally.knowthegame.game.Game;
 
 
 public class ResultTheme extends Activity {

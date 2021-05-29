@@ -1,4 +1,4 @@
-package doyoureally.knowthegame.Theme;
+package doyoureally.knowthegame.theme;
 
 import java.util.ArrayList;
 

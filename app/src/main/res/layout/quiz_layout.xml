@@ -31,34 +31,34 @@
         android:textAlignment="center"
         android:textSize="22sp" />
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_below="@+id/game_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4D29B6F6"
-        android:choiceMode="singleChoice"
-        android:divider="@color/purple_500"
-        android:dividerHeight="3dp"
-        android:entries="@array/listGames"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
-        android:scrollbarAlwaysDrawVerticalTrack="false"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        />
-
-<!--    <Button-->
-<!--        android:id="@+id/rep1"-->
-<!--        android:layout_width="176dp"-->
-<!--        android:layout_height="88dp"-->
+<!--    <ListView-->
+<!--        android:id="@+id/listView"-->
 <!--        android:layout_below="@+id/game_name"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#4D29B6F6"-->
+<!--        android:choiceMode="singleChoice"-->
+<!--        android:divider="@color/purple_500"-->
+<!--        android:dividerHeight="3dp"-->
+<!--        android:entries="@array/listGames"-->
+<!--        android:scrollbarAlwaysDrawHorizontalTrack="true"-->
+<!--        android:scrollbarAlwaysDrawVerticalTrack="false"-->
 <!--        android:layout_marginStart="20dp"-->
 <!--        android:layout_marginTop="20dp"-->
 <!--        android:layout_marginEnd="20dp"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textSize="12sp" />-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/tamere"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/game_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="center"
+        android:textSize="12sp" />
 
 </RelativeLayout>

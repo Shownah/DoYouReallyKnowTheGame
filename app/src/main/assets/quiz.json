@@ -1,5 +1,6 @@
-{
-  "gtfo": {
+[
+  {
+    "id": "gtfo",
     "name": "GTFO",
     "mipmapName": "gtfo",
     "questions": [
@@ -65,8 +66,8 @@
       }
     ]
   },
-
-  "smash": {
+  {
+    "id": "smash",
     "name": "Super Smash Bros Ultimate",
     "mipmapName": "smash",
     "questions": [
@@ -132,8 +133,8 @@
       }
     ]
   },
-
-  "lol": {
+  {
+    "id": "lol",
     "name": "League Of Legends",
     "mipmapName": "lol",
     "questions": [
@@ -199,8 +200,8 @@
       }
     ]
   },
-
-  "gta": {
+  {
+    "id":"gta",
     "name": "GTA V",
     "mipmapName": "gta",
     "questions": [
@@ -266,8 +267,8 @@
       }
     ]
   },
-
-  "sot": {
+  {
+    "id": "sot",
     "name": "Sea Of Thieves",
     "mipmapName": "sot",
     "questions": [
@@ -333,4 +334,4 @@
       }
     ]
   }
-}
+]
