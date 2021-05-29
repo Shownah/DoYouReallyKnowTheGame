@@ -1,0 +1,336 @@
+{
+  "gtfo": {
+    "name": "GTFO",
+    "mipmapName": "gtfo",
+    "questions": [
+      {
+        "question": "Combien d'armes embarque-t-on dans les expéditions ?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "question": "Quelle est l'arme de mélée la plus puissante ?",
+        "answers": [
+          "Le sledgehammer",
+          "Elles infligent toutes les mêmes dégâts",
+          "Le maul",
+          "Le mallet"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Combien de niveaux de profondeur existe-t-il dans le Rundown 005 ?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle est une des spécificités du Rundown 005 ?",
+        "answers": [
+          "Les mobs sont déjà éveillés",
+          "Il n'y a plus de scout",
+          "Le revolver n'est plus disponible",
+          "Les mobs peuvent respawn"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle nationalité ne se trouve pas parmi les prisonniers ?",
+        "answers": [
+          "Nigérien",
+          "Américain",
+          "Ecossais",
+          "Irlandais"
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "question": "Quel est le nom du personnage irlandais ?",
+        "answers": [
+          "Hackett",
+          "Dauda",
+          "Woods",
+          "Bishop"
+        ],
+        "rightAnswer": 0
+      }
+    ]
+  },
+
+  "smash": {
+    "name": "Super Smash Bros Ultimate",
+    "mipmapName": "smash",
+    "questions": [
+      {
+        "question": "Combien de personnages sont jouables en mai 2021 (DLC inclus) ?",
+        "answers": [
+          "70",
+          "72",
+          "76",
+          "80"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Combien de spikes Donkey Kong possède-t-il ?",
+        "answers": [
+          "2",
+          "4",
+          "5",
+          "6"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Combien d'objets Pac-Man peut-il faire apparaître avec son neutral B?",
+        "answers": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Combien d'attaques de feu Captain Falcon possède-t-il ?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Qui possède une capacité smiliaire à celle du Down-B de JigglyPuff ?",
+        "answers": [
+          "Kirby",
+          "Bowser",
+          "Luigi",
+          "Joker"
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "question": "Combien de Link existe-t-il ?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rightAnswer": 1
+      }
+    ]
+  },
+
+  "lol": {
+    "name": "League Of Legends",
+    "mipmapName": "lol",
+    "questions": [
+      {
+        "question": "Combien de champions existe-t-il en mai 2021 ?",
+        "answers": [
+          "146",
+          "148",
+          "153",
+          "155"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle est la date de sortie de LoL ?",
+        "answers": [
+          "Octobre 2009",
+          "Novembre 2010",
+          "Décembre 2010",
+          "Décembre 2011"
+        ],
+        "rightAnswer": 0
+      },
+      {
+        "question": "Qui a remporté les Worlds 2016 ?",
+        "answers": [
+          "Fnatic",
+          "G2",
+          "SKT T1",
+          "Invictus Gaming"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quel est le prénom de Vayne ?",
+        "answers": [
+          "Irma",
+          "Shauna",
+          "Nanny",
+          "Pog"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Combien d'ADC ont un ultimate global ? ",
+        "answers": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Qui est le frère de Nasus ?",
+        "answers": [
+          "Kled",
+          "Warwick",
+          "Renekton",
+          "Darius"
+        ],
+        "rightAnswer": 2
+      }
+    ]
+  },
+
+  "gta": {
+    "name": "GTA V",
+    "mipmapName": "gta",
+    "questions": [
+      {
+        "question": "Comment s'appelle la ville du jeu ?",
+        "answers": [
+          "San Francisco",
+          "NYC",
+          "Los Santos",
+          "Palm Bay"
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "question": "De quelle ville est inspirée Los Santos ?",
+        "answers": [
+          "Los Angeles",
+          "Miami",
+          "Dubai",
+          "Londres"
+        ],
+        "rightAnswer": 0
+      },
+      {
+        "question": "Quel est le nom du personnage qui vit dans une petite maison exclu de la ville ?",
+        "answers": [
+          "Lamar",
+          "Michael",
+          "Franklin",
+          "Trevor"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Combien d'aéroports peut-on trouver dans GTA V ?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quel est le nom du personnage qui vous demande de braquer des voitures ?",
+        "answers": [
+          "Simeon",
+          "Lester",
+          "Ron",
+          "Denise"
+        ],
+        "rightAnswer": 0
+      },
+      {
+        "question": "Quelle est la date de sortie de GTA V ?",
+        "answers": [
+          "Septembre 2012",
+          "Septembre 2013",
+          "Novembre 2013",
+          "Novembre 2014"
+        ],
+        "rightAnswer": 1
+      }
+    ]
+  },
+
+  "sot": {
+    "name": "Sea Of Thieves",
+    "mipmapName": "sot",
+    "questions": [
+      {
+        "question": "Quelle est la date de sortie de Sea Of Thieves ?",
+        "answers": [
+          "Octobre 2017",
+          "Mars 2018",
+          "Novembre 2018",
+          "Decembre 2018"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Combien peut-on trouver de couleurs de lampe ?",
+        "answers": [
+          "4",
+          "6",
+          "7",
+          "8"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Quel est le niveau maximal de l'ordre des âmes ?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle est une des spécificités du Rundown 005 ?",
+        "answers": [
+          "Les mobs sont déjà éveillés",
+          "Il n'y a plus de scout",
+          "Le revolver n'est plus disponible",
+          "Les mobs peuvent respawn"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle nationalité ne se trouve pas parmi les prisonniers ?",
+        "answers": [
+          "Nigérien",
+          "Américain",
+          "Ecossais",
+          "Irlandais"
+        ],
+        "rightAnswer": 2
+      },
+      {
+        "question": "Quel est le nom du personnage irlandais ?",
+        "answers": [
+          "Hackett",
+          "Dauda",
+          "Woods",
+          "Bishop"
+        ],
+        "rightAnswer": 0
+      }
+    ]
+  }
+}
