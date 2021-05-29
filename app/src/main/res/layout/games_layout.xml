@@ -5,10 +5,44 @@
     android:orientation="horizontal">
 
 
+    <Button
+        android:id="@+id/Objets"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/Environnement"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="117dp"
+        android:text="Objets"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Environnement"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/personnages"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="117dp"
+        android:text="Environnement"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
     <ImageView
         android:id="@+id/game_picture"
-        android:layout_width="110dp"
-        android:layout_height="94dp"
+        android:layout_width="229dp"
+        android:layout_height="144dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -16,10 +50,28 @@
         android:id="@+id/game_name"
         android:layout_width="254dp"
         android:layout_height="96dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="3dp"
-        android:layout_toEndOf="@+id/game_picture"
+        android:layout_below="@+id/game_picture"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="78dp"
+        android:gravity="center"
+        android:textAlignment="center"
         android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/personnages"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/game_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="117dp"
+        android:text="Personnages"
+        android:textAlignment="center"
+        android:textSize="12sp" />
 
 </RelativeLayout>

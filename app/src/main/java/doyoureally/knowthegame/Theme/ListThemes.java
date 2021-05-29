@@ -24,7 +24,6 @@ public class ListThemes {
         listT.add(new Theme("GTFO", mipmap.gtfo));
         listT.add(new Theme("League of Legends", mipmap.lol));
         listT.add(new Theme("Super Smash Bros. Ultimate", mipmap.smash));
-        listT.add(new Theme("Echecs", mipmap.chess));
     }
 
 }
