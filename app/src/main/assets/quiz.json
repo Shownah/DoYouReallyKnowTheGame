@@ -295,40 +295,40 @@
       {
         "question": "Quel est le niveau maximal de l'ordre des âmes ?",
         "answers": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "rightAnswer": 3
-      },
-      {
-        "question": "Quelle est une des spécificités du Rundown 005 ?",
-        "answers": [
-          "Les mobs sont déjà éveillés",
-          "Il n'y a plus de scout",
-          "Le revolver n'est plus disponible",
-          "Les mobs peuvent respawn"
-        ],
-        "rightAnswer": 3
-      },
-      {
-        "question": "Quelle nationalité ne se trouve pas parmi les prisonniers ?",
-        "answers": [
-          "Nigérien",
-          "Américain",
-          "Ecossais",
-          "Irlandais"
+          "25",
+          "50",
+          "75",
+          "100"
         ],
         "rightAnswer": 2
       },
       {
-        "question": "Quel est le nom du personnage irlandais ?",
+        "question": "Quel est le nom du bateau à deux voiles ?",
         "answers": [
-          "Hackett",
-          "Dauda",
-          "Woods",
-          "Bishop"
+          "Sloop",
+          "Galion",
+          "Barque",
+          "Brigantin"
+        ],
+        "rightAnswer": 3
+      },
+      {
+        "question": "Quelle est arme n'est pas présente dans le jeu ?",
+        "answers": [
+          "Pistolet",
+          "Machette",
+          "Tromblon",
+          "Sabre"
+        ],
+        "rightAnswer": 1
+      },
+      {
+        "question": "Quel est le fruit qui redonne le plus de vie ? ?",
+        "answers": [
+          "Ananas",
+          "Mangue",
+          "Noix de coco",
+          "Banane"
         ],
         "rightAnswer": 0
       }
