@@ -9,6 +9,7 @@ public class Game implements Parcelable {
     private int picture;
 
     public Game(String name, int picture) {
+        System.out.println(name + " cocochanel "+  picture);
         this.name = name;
         this.picture = picture;
     }
