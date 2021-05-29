@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listGames">
+        <item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item><item>GTFO</item>
+        <item>League of Legends</item>
+        <item>Super Smash Bros. Ultimate</item>
+        <item>Echecs</item>
+    </string-array>
+</resources>
