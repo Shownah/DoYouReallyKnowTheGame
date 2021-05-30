@@ -34,14 +34,11 @@ public class ResultGame extends AppCompatActivity {
 
         String jsonFileString = Utils.getJsonFromAssets(getApplicationContext(), "quiz.json");
         Gson gson = new Gson();
-        Type listQuizType = new TypeToken<List<Quiz>>() { }.getType();
+        Type listQuizType = new TypeToken<List<Quiz>>() {}.getType();
         List<Quiz> quizzes = gson.fromJson(jsonFileString, listQuizType);
-        System.out.println("YOLO");
 
         Button button = findViewById(R.id.menu);
         Intent intent = new Intent(ResultGame.this, QuizQuestion.class);
-        System.out.println("azeazeaze " + game.toString());
-        System.out.println("azeazeaze " + quizzes.get(0).getName());
         button.setOnClickListener((id) -> {
             Quiz quiz = quizzes.stream()
                     .filter(q -> game.getName().equals(q.getName()))
@@ -49,6 +46,8 @@ public class ResultGame extends AppCompatActivity {
                     .orElse(null);
             intent.putExtra("Game", (Parcelable) game);
             intent.putExtra("Quiz", (Parcelable) quiz);
+            intent.putExtra("Score", (int) 0);
+            intent.putExtra("QuestionNumber", (int) 0);
             startActivity(intent);
         });
     }

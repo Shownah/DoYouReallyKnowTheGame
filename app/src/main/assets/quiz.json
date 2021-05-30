@@ -68,7 +68,7 @@
   },
   {
     "id": "smash",
-    "name": "Super Smash Bros Ultimate",
+    "name": "Super Smash Bros. Ultimate",
     "mipmapName": "smash",
     "questions": [
       {
@@ -135,7 +135,7 @@
   },
   {
     "id": "lol",
-    "name": "League Of Legends",
+    "name": "League of Legends",
     "mipmapName": "lol",
     "questions": [
       {
@@ -166,7 +166,7 @@
           "SKT T1",
           "Invictus Gaming"
         ],
-        "rightAnswer": 3
+        "rightAnswer": 2
       },
       {
         "question": "Quel est le prénom de Vayne ?",

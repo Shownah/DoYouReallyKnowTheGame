@@ -39,7 +39,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="153dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="116dp"
         android:text="Menu principal"
         android:textAlignment="center"

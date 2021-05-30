@@ -6,9 +6,9 @@ import android.os.Parcelable;
 import java.util.ArrayList;
 
 public class Question implements Parcelable {
-    private String question;
-    private ArrayList<String> answers;
-    private int rightAnswer;
+    private final String question;
+    private final int rightAnswer;
+    private final ArrayList<String> answers;
 
     public Question(String question, ArrayList<String> answers, int rightAnswer) {
         this.question = question;
@@ -18,8 +18,8 @@ public class Question implements Parcelable {
 
     protected Question(Parcel in) {
         question = in.readString();
-        answers = in.createStringArrayList();
         rightAnswer = in.readInt();
+        answers = in.createStringArrayList();
     }
 
     public static final Creator<Question> CREATOR = new Creator<Question>() {
@@ -55,6 +55,6 @@ public class Question implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(question);
         dest.writeInt(rightAnswer);
-        dest.writeList(answers);
+        dest.writeStringList(answers);
     }
 }

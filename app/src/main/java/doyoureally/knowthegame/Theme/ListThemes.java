@@ -16,7 +16,7 @@ public class ListThemes {
         return listT.size();
     }
 
-    public Theme getTheme(int pos){
+    public Theme getTheme(int pos) {
         return listT.get(pos);
     }
 

@@ -1,10 +1,10 @@
 package doyoureally.knowthegame.theme;
 
 public class Theme {
-    private String name;
-    private int picture;
+    private final String name;
+    private final int picture;
 
-    public Theme(String name, int picture){
+    public Theme(String name, int picture) {
         this.name = name;
         this.picture = picture;
     }

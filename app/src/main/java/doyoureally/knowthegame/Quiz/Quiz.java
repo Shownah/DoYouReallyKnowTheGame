@@ -6,10 +6,11 @@ import android.os.Parcelable;
 import java.util.ArrayList;
 
 public class Quiz implements Parcelable {
-    private ArrayList<Question> questions;
     private String name;
     private String id;
     private String mipmapName;
+    private ArrayList<Question> questions;
+
 
     public Quiz(ArrayList<Question> questions) {
         this.questions = questions;
@@ -64,10 +65,11 @@ public class Quiz implements Parcelable {
     @Override
     public String toString() {
         return "Quiz{" +
-                //"questions=" + questions +
                 ", name='" + name + '\'' +
                 ", id='" + id + '\'' +
                 ", mipmapName='" + mipmapName + '\'' +
+                "questions=" + questions +
+
                 '}';
     }
 
@@ -78,9 +80,9 @@ public class Quiz implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeList(questions);
         dest.writeString(name);
         dest.writeString(id);
         dest.writeString(mipmapName);
+        dest.writeTypedList(questions);
     }
 }

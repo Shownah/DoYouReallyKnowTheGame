@@ -16,7 +16,7 @@ public class ListGames {
         return listG.size();
     }
 
-    public Game getGame(int pos){
+    public Game getGame(int pos) {
         return listG.get(pos);
     }
 
